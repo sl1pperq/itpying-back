@@ -43,4 +43,4 @@ def post_delete_user():
 def post_check_all_class():
     return check_all_class(request.json)
 
-app.run(port=5503)
+app.run(port=5303)
